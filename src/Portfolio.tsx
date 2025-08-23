@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
+import profileImage from "./assets/matt-profile.jpg";
 import { URLS } from "./consts/urls.ts";
 
 const tabs = [
@@ -16,10 +17,18 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gray-50 text-gray-800 p-6">
       {/* Header */}
       <header className="text-center mb-8">
-        <h1 className="text-4xl font-bold mb-2">
-          Matthew Ward
-        </h1>
-        <p className="text-lg text-gray-600">Software Engineer | AI Enthusiast</p>
+        <div className="flex flex-col items-center mb-4">
+                     <img 
+             src={profileImage} 
+             alt="Matthew Ward" 
+             className="rounded-full object-contain border-2 border-blue-600 shadow-md mb-4"
+             style={{ height: '256px', backgroundColor: '#f3f4f6' }}
+           />
+          <h1 className="text-4xl font-bold mb-2">
+            Matthew Ward
+          </h1>
+          <p className="text-lg text-gray-600">Software Engineer | AI Enthusiast</p>
+        </div>
         <div className="flex justify-center gap-4 mt-4">
           <a href={URLS.GITHUB} target="_blank" rel="noreferrer">
             <Github className="w-6 h-6 hover:text-blue-600">GitHub</Github>
