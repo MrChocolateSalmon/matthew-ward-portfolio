@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/matthew-ward-portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/matthew-ward-portfolio/static/js/main.b58dbed0.js",
+    "static/js/453.ef43d7ac.chunk.js": "/matthew-ward-portfolio/static/js/453.ef43d7ac.chunk.js",
+    "index.html": "/matthew-ward-portfolio/index.html",
+    "main.f855e6bc.css.map": "/matthew-ward-portfolio/static/css/main.f855e6bc.css.map",
+    "main.b58dbed0.js.map": "/matthew-ward-portfolio/static/js/main.b58dbed0.js.map",
+    "453.ef43d7ac.chunk.js.map": "/matthew-ward-portfolio/static/js/453.ef43d7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b58dbed0.js"
+  ]
+}
